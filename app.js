@@ -1,4 +1,5 @@
-import express from 'express';
+const express = require('express');
+require('./config/dba');
 
 const app = express();
 
